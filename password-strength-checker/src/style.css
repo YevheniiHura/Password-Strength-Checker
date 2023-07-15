@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.password-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #daf0f1;
+}
+
+.password-section__container {
+  margin-top: 10rem;
+  width: 50%;
+}
+
+.password-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #2C2425;
+
+  transition: border .3s;
+}
+
+.password-input:focus {
+  outline: none;
+  border-color: #14ACCC;
+} 
+
+.password-strength {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.password-strength-section {
+  flex-grow: 1;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 0.5rem;
+}
+
+.password-strength-section:last-child {
+  margin-right: 0;
+}
+
+.gray {
+  background-color: #c3d7d8;
+}
+
+.red {
+  background-color: #D50000;
+}
+
+.yellow {
+  background-color: #f1f100;
+}
+
+.green {
+  background-color: #00d512;
+}
